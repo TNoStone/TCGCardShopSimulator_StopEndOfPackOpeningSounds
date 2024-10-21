@@ -107,22 +107,3 @@ __pycache__/
 # Ignore bin and obj folders in all directories
 [Bb]in/
 [Oo]bj/
-
-# -------- Custom Rules to Include Only StopEndOfPackOpeningSounds.dll --------
-
-# Unignore the bin directory of your project
-!TCGCardShopSimulator_StopEndOfPackOpeningSounds/bin/
-
-# Ignore everything in the bin directory
-TCGCardShopSimulator_StopEndOfPackOpeningSounds/bin/*
-
-# Unignore the Release directory
-!TCGCardShopSimulator_StopEndOfPackOpeningSounds/bin/Release/
-
-# Ignore everything in the Release directory
-TCGCardShopSimulator_StopEndOfPackOpeningSounds/bin/Release/*
-
-# Unignore the specific DLL file
-!TCGCardShopSimulator_StopEndOfPackOpeningSounds/bin/Release/StopEndOfPackOpeningSounds.dll
-
-# -------------------------------------------------------------------------------
